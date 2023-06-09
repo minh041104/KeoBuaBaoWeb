@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TaiXiuUET</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>KeoBuaBaoBet UET</h1>
+    <div class="balance">
+      Your Balance: $<span id="balance">100</span>
+    </div>
+    <div class="input-group">
+      <input type="number" id="deposit-amount" placeholder="Deposit amount">
+      <button class="btn" onclick="deposit()">Deposit</button>
+    </div>
+    <div class="input-group">
+      <input type="number" id="withdraw-amount" placeholder="Withdrawal amount">
+      <button class="btn" onclick="withdraw()">Withdraw</button>
+    </div>
+    <div id="deposit-withdraw-container">
+      <button class="btn" onclick="toggleDepositWithdraw()">Cancel</button>
+    </div>
+    <div id="result"></div>
+    <div class="input-group">
+      <input type="number" id="betAmount" placeholder="Bet amount">
+    </div>
+    <div>
+      <button class="btn" onclick="play('rock')">Rock</button>
+      <button class="btn" onclick="play('paper')">Paper</button>
+      <button class="btn" onclick="play('scissors')">Scissors</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
