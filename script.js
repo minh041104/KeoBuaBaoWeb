@@ -96,3 +96,6 @@ var balance = 100;
 
       computerChoiceImage.style.backgroundImage = 'url("' + computerChoiceImageUrl + '")';
     }
+    function sellHouse() {
+      window.location.href = "https://bdschannel.vn/?gclid=CjwKCAjwvpCkBhB4EiwAujULMibGP58jA9nSi0IyZOw6kWBT0YUtJin0h4HqxVAwcG0QuJemx5DRbRoCPWQQAvD_BwE"; // Thay thế URL bằng đường dẫn của trang web bạn muốn chuyển hướng đến
+    }
