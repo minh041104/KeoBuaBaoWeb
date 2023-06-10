@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TaiXiuUET</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>KeoBuaBaoBet UET</h1>
+    <h1>Rock Paper Scissors</h1>
     <div class="balance">
       Your Balance: $<span id="balance">100</span>
     </div>
@@ -25,10 +25,23 @@
     <div class="input-group">
       <input type="number" id="betAmount" placeholder="Bet amount">
     </div>
-    <div>
-      <button class="btn" onclick="play('rock')">Rock</button>
-      <button class="btn" onclick="play('paper')">Paper</button>
-      <button class="btn" onclick="play('scissors')">Scissors</button>
+    <div class="choices-container">
+      <div class="choice">
+        <button class="btn" onclick="play('rock')">Rock</button>
+        <img src="https://photo-cms-anninhthudo.epicdn.me/w800/Uploaded/2023/wopkplw/2021_08_03/225399460-888580311744741-1955955362126862006-n-9123.png" alt="Rock">
+      </div>
+      <div class="choice">
+        <button class="btn" onclick="play('paper')">Paper</button>
+        <img src="https://giadinh.mediacdn.vn/zoom/740_463/Images/Uploaded/Share/2010/04/19/anh4.jpg" alt="Paper">
+      </div>
+      <div class="choice">
+        <button class="btn" onclick="play('scissors')">Scissors</button>
+        <img src="https://vntestbank.com/wp-content/uploads/2022/10/Huong-dan-cach-tu-cat-toc-nam-tai-nha-bang.jpg" alt="Scissors">
+      </div>
+    </div>
+    <div class="computer-choice">
+      <h2>Computer's Choice:</h2>
+      <div id="computer-choice-image" style="background-image: url('default-image-url');"></div>
     </div>
   </div>
 
