@@ -91,7 +91,7 @@ var balance = 100;
       } else if (randomChoice === 'paper') {
         computerChoiceImageUrl = 'https://giadinh.mediacdn.vn/zoom/740_463/Images/Uploaded/Share/2010/04/19/anh4.jpg';
       } else if (randomChoice === 'scissors') {
-        computerChoiceImageUrl = 'https://vntestbank.com/wp-content/uploads/2022/10/Huong-dan-cach-tu-cat-toc-nam-tai-nha-bang.jpg';
+        computerChoiceImageUrl = 'https://cdn.tgdd.vn/Products/Images/8558/276345/nha-bep-da-nang-delites-9230-2125-2.jpg';
       }
 
       computerChoiceImage.style.backgroundImage = 'url("' + computerChoiceImageUrl + '")';
